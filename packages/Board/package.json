@@ -1,0 +1,16 @@
+{
+    "name": "@fishtrax/gauge",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "module": "src/index.js",
+    "license": "MIT",
+    "files": [
+        "/dist"
+    ],
+    "scripts": {
+        "start": "NODE_ENV=production lerna exec --parallel -- babel src -d dist"
+    },
+    "dependencies": {
+        "@asseinfo/react-kanban": "^2.2.0"
+    }
+}

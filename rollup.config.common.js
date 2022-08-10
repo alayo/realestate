@@ -50,6 +50,11 @@ const config = {
     '@esri/react-arcgis',
     '@material-ui/core',
     '@material-ui/styles',
+    '@asseinfo/react-kanban',
+    '@mui',
+    'react/jsx-runtime',
+    '@mui/icons-material',
+    '@mui/icons-material/LocationOn',
   ],
 };
 

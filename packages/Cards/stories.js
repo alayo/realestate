@@ -6,7 +6,8 @@ import { specs, describe, it } from 'storybook-addon-specifications'
 import { shallow, configure } from 'enzyme';
 import Cards from './dist/index';
 
-const BUCKET = 'https://d3izp14dmtz9lq.cloudfront.net/web';
+import bImg from './src/'
+const BUCKET = 'https://d15ja4fad1zpnr.cloudfront.net';
 
 const { expect } = require('chai')
 
@@ -16,7 +17,7 @@ const stories = storiesOf('Cards', module);
 
 const singleCard = {
   "Bear River": {
-    image: `${BUCKET}/Web-Header-Image-1280-Wide.jpg`,
+    image: `${BUCKET}/building.jpg`,
     location: 'Bear River',
     state: 'Utah',
     distance: '31.48 miles',
@@ -55,7 +56,7 @@ const singleCard = {
 
 const multipleCards = {
   "Bear River": {
-    image: `${BUCKET}/Web-Header-Image-1280-Wide.jpg`,
+    image: `${BUCKET}/building.jpg`,
     location: 'Bear River',
     state: 'Utah',
     size: '4" - 8" trout',
@@ -90,7 +91,7 @@ const multipleCards = {
     }
   },
   "Arkansas River": {
-    image: `${BUCKET}/Web-Header-Image-1280-Wide.jpg`,
+    image: `${BUCKET}/building.jpg`,
     location: 'Arkansas River',
     state: 'California',
     distance: '128.38 miles',
@@ -126,7 +127,7 @@ const multipleCards = {
     }
   },
   "Blue River - Green Mtn Res to Colorado River": {
-    image: `${BUCKET}/Web-Header-Image-1280-Wide.jpg`,
+    image: `${BUCKET}/building.jpg`,
     location: 'Blue River - Green Mtn Res to Colorado River',
     state: 'Colorado',
     distance: '15.83 miles',
