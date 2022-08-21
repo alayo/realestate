@@ -46,13 +46,7 @@ import Footer from '@xdealflow/core/Footer';
 ```
 
 
-## Packages
 
-#### Calendar
-
-React-Big-Calendar component styled and designed for maintenance cases
-```js
-import Calendar from '@xdealflow/core/Calendar';
 ```
 
 #### Eyebrow
@@ -69,19 +63,8 @@ Expandable Card component with large image
 import ExpandCard from '@xdealflow/core/ExpandCard';
 ```
 
-#### FiberMap
 
-Esri Map component, built to display interactable fiber for Shop-by-Location page
-```js
-import FiberMap from '@xdealflow/core/FiberMap';
-```
 
-#### FiberStats
-
-Large FiberStats component for homepage
-```js
-import FiberStats from '@xdealflow/core/FiberStats';
-```
 
 #### Footer
 
@@ -90,18 +73,8 @@ Large Footer component
 import Footer from '@xdealflow/core/Footer';
 ```
 
-#### GhostNav
 
-Main navigation for xdealflow.com homepage
-```js
-import GhostNav from '@xdealflow/core/GhostNav';
-```
 
-#### HeaderBar
-
-Custom gradient AppBar component, built for use as a page navigation
-```js
-import HeaderBar from '@xdealflow/core/HeaderBar';
 ```
 
 #### Input
@@ -111,26 +84,10 @@ Basic input component with multiple design options. See: [@xdealflow/Input](./In
 import Input from '@xdealflow/core/Input';
 ```
 
-#### LeafletMap
 
-Leaflet map component styled and designed for maintenance cases
-```js
-import LeafletMap from '@xdealflow/core/LeafletMap';
-```
 
-#### Login
 
-Login component styled and designed for xdealflow.com login page
-```js
-import Login from '@xdealflow/core/Login';
-```
 
-#### Modal
-
-Basic Modal component
-```js
-import Modal from '@xdealflow/core/Modal';
-```
 
 #### xdealflowTheme
 
