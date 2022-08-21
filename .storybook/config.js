@@ -2,7 +2,7 @@ import { addParameters, addDecorator, configure } from '@storybook/react';
 import { withNotes } from '@storybook/addon-notes';
 import { withInfo } from '@storybook/addon-info';
 import { muiTheme } from 'storybook-addon-material-ui';
-import FishTraxTheme from '../packages/Theme/src/index'
+import xdealflowTheme from '../packages/Theme/src/index'
 import './styles.css'
 
 window.$ = window.jQuery = require('jquery');
@@ -40,7 +40,7 @@ addDecorator(withInfo({
     }
   })
 );
-addDecorator(muiTheme(FishTraxTheme))
+addDecorator(muiTheme(xdealflowTheme))
 
 //const reqMain = require.context('../stories', true, /\.?stories\.js$/);
 //const reqLib = require.context('../src', true, /\.?stories\.js$/);

@@ -1,5 +1,5 @@
 {
-  "name": "@fishtrax/cookieBanner",
+  "name": "@xdealflow/cookieBanner",
   "version": "0.0.1",
   "license": "MIT",
   "main": "dist/index.js",

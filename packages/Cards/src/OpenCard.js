@@ -5,7 +5,8 @@ const useStyles = makeStyles(theme => ({
     container: {
         width: '100%',
         margin: '10px 0',
-        fontFamily: 'Titillium Web, sans-serif !important',
+        fontFamily: 'Open Sans, sans-serif !important',
+    
     },
     innerContainer: {
         boxShadow: '0px 3px 3px #e3e5e4',

@@ -1,5 +1,6 @@
 .react-kanban-board {
-	padding: 5px
+	padding: 5px;
+	font-family:'Open Sans'!important;
 }
 
 .react-kanban-card {

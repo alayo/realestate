@@ -65,7 +65,7 @@ const KBoard =()=>{
         columns: [
           {
             id: 1,
-            title: "Backlog",
+            title: "Pipeline",
             cards: [
               {
                 id: 1,
@@ -86,7 +86,7 @@ const KBoard =()=>{
           },
           {
             id: 2,
-            title: "Doing",
+            title: "Underwriting",
             cards: [
               {
                 id: 9,
@@ -97,7 +97,7 @@ const KBoard =()=>{
           },
           {
             id: 3,
-            title: "Q&A",
+            title: "LOI",
             cards: [
               {
                 id: 10,
@@ -113,7 +113,7 @@ const KBoard =()=>{
           },
           {
             id: 4,
-            title: "Production",
+            title: "Won",
             cards: [
               {
                 id: 12,
@@ -126,7 +126,24 @@ const KBoard =()=>{
                 description: "Card content"
               }
             ]
-          }
+          },
+          {
+            id: 5,
+            title: "Lost",
+            cards: [
+              {
+                id: 12,
+                title: "Card title 12",
+                description: "Card content"
+              },
+              {
+                id: 13,
+                title: "Card title 13",
+                description: "Card content"
+              }
+            ]
+          },
+         
         ]
     };
     const classes = useStyles();

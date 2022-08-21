@@ -2,12 +2,12 @@
 
 #### install:
 ```sh
-  npm install @fishtrax/cards --save
+  npm install @xdealflow/cards --save
 ```
 
 #### import:
 ```jsx
-  import { Cards } from '@fishtrax/Cards';
+  import { Cards } from '@xdealflow/Cards';
 
   <Cards />
 ```

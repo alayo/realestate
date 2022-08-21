@@ -15,7 +15,7 @@ import OpenCard from './OpenCard';
 const useStyles = makeStyles(theme => ({
     container: {
         opacity: "90%",
-        fontFamily: 'Rajdhani, sans serif',
+        fontFamily: 'Open Sans, sans-serif !important',
     },
     root: {
         margin: '10px 7px'

@@ -1,9 +1,9 @@
 {
-  "name": "@fishtrax/cookiebanner",
+  "name": "@xdealflow/cookiebanner",
   "version": "0.9.23",
-  "description": "fishtrax Component Library",
+  "description": "xdealflow Component Library",
   "main": "index.js",
-  "repository": "https://gitlab.fishtrax.com/tranzact/fishtrax-ui-libary",
+  "repository": "https://gitlab.xdealflow.com/tranzact/xdealflow-ui-libary",
   "author": "Shawn Brinkman",
   "license": "ISC",
   "scripts": {

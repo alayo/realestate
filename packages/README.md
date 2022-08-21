@@ -1,4 +1,4 @@
-# @fishtrax/core
+# @xdealflow/core
 
 
 
@@ -10,22 +10,22 @@ Install the package in your project directory with:
 
 ```sh
 // with npm
-npm install @fishtrax/core
+npm install @xdealflow/core
 
 // with yarn
-yarn add @fishtrax/core
+yarn add @xdealflow/core
 ```
 
 Add in custom theme with MuiThemeProvider in your root App.js file
 ```jsx
 import { MuiThemeProvider } from '@material-ui/core/styles';
-import fishtraxTheme from '@fishtrax/core/Theme';
+import xdealflowTheme from '@xdealflow/core/Theme';
 
 class App extends Component {
 
   render() {
     return (
-      <MuiThemeProvider theme={fishtraxTheme}>
+      <MuiThemeProvider theme={xdealflowTheme}>
         /** Your components here **/
       </MuiThemeProvider>
     );
@@ -42,7 +42,7 @@ Import components like you would any other React component
 
 ```js
 /** Footer Component **/
-import Footer from '@fishtrax/core/Footer';
+import Footer from '@xdealflow/core/Footer';
 ```
 
 
@@ -52,89 +52,89 @@ import Footer from '@fishtrax/core/Footer';
 
 React-Big-Calendar component styled and designed for maintenance cases
 ```js
-import Calendar from '@fishtrax/core/Calendar';
+import Calendar from '@xdealflow/core/Calendar';
 ```
 
 #### Eyebrow
 
-Eyebrow component styled and designed for the top of the fishtrax.com homepage
+Eyebrow component styled and designed for the top of the xdealflow.com homepage
 ```js
-import Eyebrow from '@fishtrax/core/Eyebrow';
+import Eyebrow from '@xdealflow/core/Eyebrow';
 ```
 
 #### ExpandCard
 
 Expandable Card component with large image
 ```js
-import ExpandCard from '@fishtrax/core/ExpandCard';
+import ExpandCard from '@xdealflow/core/ExpandCard';
 ```
 
 #### FiberMap
 
 Esri Map component, built to display interactable fiber for Shop-by-Location page
 ```js
-import FiberMap from '@fishtrax/core/FiberMap';
+import FiberMap from '@xdealflow/core/FiberMap';
 ```
 
 #### FiberStats
 
 Large FiberStats component for homepage
 ```js
-import FiberStats from '@fishtrax/core/FiberStats';
+import FiberStats from '@xdealflow/core/FiberStats';
 ```
 
 #### Footer
 
 Large Footer component
 ```js
-import Footer from '@fishtrax/core/Footer';
+import Footer from '@xdealflow/core/Footer';
 ```
 
 #### GhostNav
 
-Main navigation for fishtrax.com homepage
+Main navigation for xdealflow.com homepage
 ```js
-import GhostNav from '@fishtrax/core/GhostNav';
+import GhostNav from '@xdealflow/core/GhostNav';
 ```
 
 #### HeaderBar
 
 Custom gradient AppBar component, built for use as a page navigation
 ```js
-import HeaderBar from '@fishtrax/core/HeaderBar';
+import HeaderBar from '@xdealflow/core/HeaderBar';
 ```
 
 #### Input
 
-Basic input component with multiple design options. See: [@fishtrax/Input](./Input)
+Basic input component with multiple design options. See: [@xdealflow/Input](./Input)
 ```js
-import Input from '@fishtrax/core/Input';
+import Input from '@xdealflow/core/Input';
 ```
 
 #### LeafletMap
 
 Leaflet map component styled and designed for maintenance cases
 ```js
-import LeafletMap from '@fishtrax/core/LeafletMap';
+import LeafletMap from '@xdealflow/core/LeafletMap';
 ```
 
 #### Login
 
-Login component styled and designed for fishtrax.com login page
+Login component styled and designed for xdealflow.com login page
 ```js
-import Login from '@fishtrax/core/Login';
+import Login from '@xdealflow/core/Login';
 ```
 
 #### Modal
 
 Basic Modal component
 ```js
-import Modal from '@fishtrax/core/Modal';
+import Modal from '@xdealflow/core/Modal';
 ```
 
-#### fishtraxTheme
+#### xdealflowTheme
 
-Material-UI Theme for @fishtrax/core components
+Material-UI Theme for @xdealflow/core components
 ```js
-import fishtraxTheme from '@fishtrax/core/Theme';
+import xdealflowTheme from '@xdealflow/core/Theme';
 ```

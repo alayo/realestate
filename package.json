@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": " libraries",
   "main": "./dist/index.js",
-  "repository": "https://gitlab.FishTrax.com/tranzact/FishTrax-ui-libary",
+  "repository": "https://gitlab.xdealflow.com/tranzact/xdealflow-ui-libary",
   "author": "Shawn Brinkman",
   "scripts": {
     "build:dev": "rollup -c rollup.config.dev.js ",

@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 
 
 
-const FishtraxSwitch = withStyles((theme) => ({
+const xdealflowSwitch = withStyles((theme) => ({
     root: {
         width: 42,
         height: 26,
@@ -59,7 +59,7 @@ export default function SwitchButton() {
         <Grid component="label" container alignItems="center" spacing={1}>
           <Grid item>Off</Grid>
           <Grid item>
-            <FishtraxSwitch checked={state.checkedC} onChange={handleChange} name="checkedC" />
+            <xdealflowSwitch checked={state.checkedC} onChange={handleChange} name="checkedC" />
           </Grid>
           <Grid item>Conect</Grid>
         </Grid>

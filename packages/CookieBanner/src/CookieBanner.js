@@ -31,7 +31,7 @@ class CookieBanner extends Component {
         <div className="App">
           <CookieConsent
             onAccept={this.props.click.bind(this)}
-            cookieName="fishtraxui"
+            cookieName="xdealflowui"
             style={{zIndex: 9999999}}
             hideOnAccept={true}
             expires={90}

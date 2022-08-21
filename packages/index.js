@@ -1,2 +1,2 @@
 
-export { default as fishtraxTheme } from './Theme/dist';
+export { default as xdealflowTheme } from './Theme/dist';

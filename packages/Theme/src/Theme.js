@@ -1,9 +1,9 @@
 import { createMuiTheme } from '@material-ui/core/styles'
 
-const fishtraxTheme = createMuiTheme({
+const xdealflowTheme = createMuiTheme({
   typography: {
     useNextVariants: true,
-    fontFamily: ['Titillium Web', 'sans-serif', '!important'],
+    fontFamily: ['Open Sans', 'sans-serif', '!important'],
  },
   palette: {
     primary: {
@@ -20,4 +20,4 @@ const fishtraxTheme = createMuiTheme({
   },
 });
 
-export default fishtraxTheme
+export default xdealflowTheme

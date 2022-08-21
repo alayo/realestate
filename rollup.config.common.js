@@ -55,6 +55,8 @@ const config = {
     'react/jsx-runtime',
     '@mui/icons-material',
     '@mui/icons-material/LocationOn',
+    '@babel',
+    'mathjs'
   ],
 };
 
